@@ -13,16 +13,48 @@
     font-family: 'Abel', sans-serif;
 }
 .anton{
-    font-family: 'Anton', sans-serif
+    font-family: 'Anton', sans-serif;
 }
 .white-row {
     height: 50px;
 }
+nav {
 
+}
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    /*font-style: normal;*/
+    flex-direction: row;
+    padding-left: 0;
+    font: black;
 
+}
+li {
+    padding: 1em;
+    justify-content: space-between;
 
+}
+li a {
+    color: black;
+}
+nav:hover {
 
+}
+h2 {
+    padding: 1.5em;
+}
+#circlei-lg {
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.circle-red {
+    background-color: #e6563b;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
 
 
 
