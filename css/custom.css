@@ -21,7 +21,7 @@ body{
 }
 
 .top-row {
-    height: 25px;
+    height: 50px;
 }
 .white-row {
     height: 50px;
@@ -31,10 +31,17 @@ body{
 }
 .stack-logo {
     /*position: absolute;*/
-    float: left;
-    margin-top: 15px;
+    /*float: left;*/
+    /*margin-top: 15px;*/
+    /*z-index: 1;*/
+    background-color: white;
     z-index: 1;
-
+    height: 50px;
+    overflow: visible;
+}
+.logo {
+    /*top: 25px;*/
+    /*z-index: 1;*/
 }
 nav {
 
