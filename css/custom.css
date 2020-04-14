@@ -24,24 +24,25 @@ body{
     height: 50px;
 }
 .white-row {
-    height: 50px;
+    /*height: 50px;*/
 }
 .grey-row {
     height: 25px;
+    /*background-color: white;*/
 }
 .stack-logo {
     /*position: absolute;*/
     /*float: left;*/
     /*margin-top: 15px;*/
-    /*z-index: 1;*/
     background-color: white;
-    z-index: 1;
-    height: 50px;
-    overflow: visible;
+    z-index: 2;
+    /*height: 50px;*/
 }
 .logo {
     /*top: 25px;*/
     /*z-index: 1;*/
+    width: 20%;
+    z-index: 1;
 }
 nav {
 
@@ -69,7 +70,8 @@ nav:hover {
 
 h1 {
     /*padding-top: 50px;*/
-    padding-bottom: 50px;
+    padding-top: 25px   ;
+    padding-bottom: 25px;
 }
 
 #select-w {
