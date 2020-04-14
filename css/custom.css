@@ -61,11 +61,23 @@ h1 {
     padding-bottom: 50px;
 }
 
-/*.circlei-lg {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*}*/
+#select-w {
+    padding: 1em;
+}
 
+#feat-p {
+    padding: 0;
+    margin-left: 1em;
+}
+h5 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#circlei-lg {
+    height: 500px;
+}
 .circle-red {
     background-color: #e6563b;
     height: 100px;
@@ -98,56 +110,29 @@ h1 {
     border-radius: 50px;
     margin: 8px;
 }
-
-h2 {
-    padding: 0;
+.horz-rule {
+    height: 50px;
 }
 
 section {
-    width:68vw
+    width:91vw
 
 }
 .img-div {
     border: 15px
 }
-
-/*.stack-logo {*/
-/*    top: 240px;*/
-/*}*/
-
-h5 {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-/*p {*/
-/*    justify-content: center;*/
-/*    align-self: center;*/
-/*    padding: 0;*/
-/*}*/
-
+/*small icons*/
 
 .sm-icon {
     display: flex;
     border-radius: 50%;
-    font-size: small;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 1em;
+    /* text-align: center; */
+    padding: 1.2em;
     margin: 1em;
     width: 18px;
-    height: 18px
+    height: 18px;
 }
 div#sm-design-icon.sm-icon {
     border:1px solid #e6563b;
