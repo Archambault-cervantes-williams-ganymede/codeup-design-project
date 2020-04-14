@@ -43,14 +43,20 @@ li a {
 nav:hover {
 
 }
+
+h1 {
+    padding-bottom: 50px;
+}
+
 h2 {
     padding: 1.5em;
 }
-.circlei-lg {
-    display: flex;
-    flex-wrap: wrap;
 
-}
+/*.circlei-lg {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
 .circle-red {
     background-color: #e6563b;
     height: 100px;
@@ -96,8 +102,9 @@ section {
     border: 15px
 }
 
-
-
+/*.stack-logo {*/
+/*    top: 240px;*/
+/*}*/
 
 
 
