@@ -143,23 +143,29 @@ h5 {
     height: 50px;
 }
 
-section {
-    width:91vw
+/*section {*/
+/*    width:91vw*/
 
-}
+/*}*/
 .img-div {
     border: 15px
 }
 /*small icons*/
-
+/*.card {*/
+/*    margin-left: 100px;*/
+/*}*/
+/*.blank-div{*/
+/*    max-width: 25px;*/
+/*}*/
 .sm-icon {
     display: flex;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    font-size: small;
     /* text-align: center; */
-    padding: 1.2em;
-    margin: 1em;
+    padding: 1em;
+    margin: 5px;
     width: 18px;
     height: 18px;
 }
@@ -168,17 +174,17 @@ section {
     background-color: #e6563b;
    ;
 }
-div#sm-develop-icon.sm-icon {
+div.sm-develop-icon.sm-icon {
     border:1px solid #dea03d;
     background-color: #dea03d;
 
 }
-div#sm-support-icon.sm-icon {
+div.sm-support-icon.sm-icon {
     border:1px solid #7cb06c;
     background-color: #7cb06c;
 
 }
-div#sm-host-icon.sm-icon {
+div.sm-host-icon.sm-icon {
     border:1px solid #00aba9;
     background-color: #00aba9;
 
