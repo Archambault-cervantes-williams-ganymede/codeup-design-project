@@ -70,7 +70,8 @@ h1 {
     margin-left: 1em;
 }
 h5 {
-    margin-top: 40px;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
 }
@@ -82,33 +83,48 @@ h5 {
     background-color: #e6563b;
     height: 100px;
     width: 100px;
-    border-radius: 50px;
+    border-radius: 50%;
     margin: 8px;
+    border: solid white 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle-orange {
     background-color: #dea03d;
     height: 100px;
     width: 100px;
-    border-radius: 50px;
+    border-radius: 50%;
     margin: 8px;
+    border: solid white 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle-green {
     background-color: #7cb06c;
     height: 100px;
     width: 100px;
-    border-radius: 50px;
-    border-color: white;
+    border-radius: 50%;
     margin: 8px;
+    border: solid white 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle-teal {
     background-color: #008ba9;
     height: 100px;
     width: 100px;
-    border-radius: 50px;
+    border-radius: 50%;
     margin: 8px;
+    border: solid white 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .horz-rule {
     height: 50px;
@@ -134,7 +150,7 @@ section {
     width: 18px;
     height: 18px;
 }
-div#sm-design-icon.sm-icon {
+.sm-design-icon.sm-icon {
     border:1px solid #e6563b;
     background-color: #e6563b;
    ;
