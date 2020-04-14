@@ -1,10 +1,9 @@
 * {
-    /*font-family: 'Anton', sans-serif;*/
-    /*font-family: 'Abel', sans-serif;*/
-    /*box-sizing: border-box;*/
+
 }
 body{
     margin: auto;
+    background: #e6e6e6;
 }
 .container {
     /*width: 100%;*/
@@ -16,6 +15,11 @@ body{
 .anton{
     font-family: 'Anton', sans-serif;
 }
+
+.bgc {
+    background: #e6e6e6;
+}
+
 .top-row {
     height: 25px;
 }
