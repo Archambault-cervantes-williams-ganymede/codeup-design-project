@@ -46,7 +46,7 @@ nav:hover {
 h2 {
     padding: 1.5em;
 }
-#circlei-lg {
+.circlei-lg {
     display: flex;
     flex-wrap: wrap;
 
@@ -56,6 +56,32 @@ h2 {
     height: 100px;
     width: 100px;
     border-radius: 50px;
+    margin: 8px;
+}
+
+.circle-orange {
+    background-color: #dea03d;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 8px;
+}
+
+.circle-green {
+    background-color: #7cb06c;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border-color: white;
+    margin: 8px;
+}
+
+.circle-teal {
+    background-color: #008ba9;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 8px;
 }
 
 h2 {
