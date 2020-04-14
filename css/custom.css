@@ -1,13 +1,8 @@
-* {
 
-}
 body{
     background: #e6e6e6;
 }
-.container {
-    /*width: 100%;*/
-    /*height: 100vh;*/
-}
+
 .abel{
     font-family: 'Abel', sans-serif;
 }
@@ -22,53 +17,42 @@ body{
 .top-row {
     height: 50px;
 }
-.white-row {
-    /*height: 50px;*/
-}
+
 .grey-row {
     height: 25px;
-    /*background-color: white;*/
 }
+
+
 .stack-logo {
-    /*position: absolute;*/
-    /*float: left;*/
-    /*margin-top: 15px;*/
     background-color: white;
     z-index: 2;
-    /*height: 50px;*/
+
 }
 .logo {
-    /*top: 25px;*/
-    /*z-index: 1;*/
     width: 20%;
     z-index: 1;
 }
-nav {
 
-}
+
 ul {
     display: inline-flex;
     list-style-type: none;
-    /*font-style: normal;*/
     flex-direction: row;
     padding-left: 0;
     color:black;
-
 }
+
 li {
     padding: 1em;
     justify-content: space-between;
-
 }
+
 li a {
     color: black;
 }
-nav:hover {
 
-}
 
 h1 {
-    /*padding-top: 50px;*/
     padding-top: 25px   ;
     padding-bottom: 25px;
 }
@@ -81,6 +65,7 @@ h1 {
     padding: 0;
     margin: 0;
 }
+
 h5 {
     margin: 0;
     padding: 0;
@@ -91,6 +76,7 @@ h5 {
 #circlei-lg {
     height: 500px;
 }
+
 .circle-red {
     background-color: #e6563b;
     height: 100px;
@@ -138,53 +124,43 @@ h5 {
     justify-content: center;
     align-items: center;
 }
+
 .horz-rule {
     height: 50px;
 }
 
-/*section {*/
-/*    width:91vw*/
-
-/*}*/
 .img-div {
     border: 15px
 }
-/*small icons*/
-/*.card {*/
-/*    margin-left: 100px;*/
-/*}*/
-/*.blank-div{*/
-/*    max-width: 25px;*/
-/*}*/
+
 .sm-icon {
     display: flex;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     font-size: small;
-    /* text-align: center; */
     padding: 1em;
     margin: 5px;
     width: 18px;
     height: 18px;
 }
+
 .sm-design-icon.sm-icon {
     border:1px solid #e6563b;
     background-color: #e6563b;
-   ;
 }
+
 div.sm-develop-icon.sm-icon {
     border:1px solid #dea03d;
     background-color: #dea03d;
-
 }
+
 div.sm-support-icon.sm-icon {
     border:1px solid #7cb06c;
     background-color: #7cb06c;
-
 }
+
 div.sm-host-icon.sm-icon {
     border:1px solid #00aba9;
     background-color: #00aba9;
-
 }
