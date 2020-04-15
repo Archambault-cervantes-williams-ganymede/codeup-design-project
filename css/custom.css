@@ -171,8 +171,9 @@ div.sm-host-icon.sm-icon {
 @media screen and (min-width: 576px) {   
     nav {
         position: absolute;
-        background-color: white;
-
+        background-color: white;}
+    .feat-p {
+font-size: small;
 }
 }
 @media screen and (min-width: 768px) { 
