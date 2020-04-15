@@ -169,11 +169,13 @@ div.sm-host-icon.sm-icon {
     background-color: #00aba9;
 }
 @media screen and (min-width: 576px) {   
+    nav {
+        position: absolute;
+        background-color: white;
+
 }
-
- @media screen and (min-width: 768px) { 
- }
-
-
+}
+@media screen and (min-width: 768px) { 
+}
 @media screen and (min-width: 992px) { 
- } 
+} 
