@@ -75,6 +75,7 @@ h5 {
 
 #circle-lg {
     height: 500px;
+    max-width: 80%;
 }
 
 .circle-red {
